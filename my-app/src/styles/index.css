@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+
+html{
+  background-color:#FFEDCB;
+}
+
+
+h6, input,form{
+  font-size: 3.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h6{
+  font-family: 'Harmattan', sans-serif;
+  padding-top: 10%;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Harmattan', sans-serif;
+}
+
+input{
+  font-size: 1em;
+  width: 70%;
+  border-radius: 20px;
+  border: none;
+background-color: #FFEDCB;
+
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.separador{
+  position:flex;
+  width:50%;
+
+}
+
+.formInside{
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+
+button{
+ border-radius: 21px; 
+ width: 20%;
+ padding: 15px 5px;
+ margin-top: 5%;
+ font-size: large;
+ background-color: #512F07;
+}
+
+span{
+  color: #FFEDCB;
+}
+.comercioJusto{
+  display: flex;
+  position:relative;
+  top:120px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size:2em;
+
+}
+
+.centrado{
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-left: 31%;
+padding-right: 31%;
+font-size: 1.4em;
+font-weight:100;
+position: relative;
+top: 80px;
+}
+
+.pagina2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+
+#textLat0{
+  margin-left: 100px;
+  font-size: 4em;
+}
+.comercioPregunta{
+
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 50px;
+
+
+    font-size: 2em;
+  
+}
+
+#imperioFairtrade{
+  font-size: 6em;
+text-align: center;
+position: static;
+padding-left:30%;
+padding-right:30%;
+}
+#textPreg{
+  font-size:4em;
+}
+
+#textLat{
+  margin-left: 200px;
+  font-size: 4em;
+}
+
+.segundosTazasConsumidas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.segundos{
+background-color: #F1C1A2;
+padding: 10%;
+margin-right: 5%;
+}
+
+#mapa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.opciones{
+  padding: 5%;
+}
+
+.Xtazas{
+  background-color: #F1C1A2;
+  padding: 7%;
+  margin-right: 5%;
+}
+
+.tazaNro{
+  background-color: #F1C1A2;
+  padding: 5%;
+}
+
+.pregunta1{
+  padding-top: 5%;
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 3em;
+margin: 0%;
+}
+
+.paisesPorcentajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DatosTomados{
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+
+}
+
